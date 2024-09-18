@@ -1,0 +1,27 @@
+programa {
+  funcao inicio() {
+    real n1,n2,soma,subtracao,divisao1,divisao2,potencia1,potencia2
+    escreva("Informe o primeiro valor: ")
+    leia(n1)
+    escreva("Informe o segundo valor: ")
+    leia(n2)
+    soma=n1+n2
+    escreva("\n O resultado da soma é: ",soma) 
+    subtracao=n1-n2
+    escreva("\n O resultado da subtração é: ",subtracao)
+    divisao1=n1/n2
+    escreva("\n O resultado da divisao1 é: ",divisao1)
+    divisao2=n2/n1
+    escreva("\n O resultado da divisao 2 é:" ,divisao2)
+    potencia1=n1*n1
+    escreva("\n O resultado da potencia1 é: ",potencia1)
+    potencia2=n2*n2
+    escreva("\n O resultado da potencia2 é: ",potencia2)
+
+
+
+
+
+    
+  }
+}
